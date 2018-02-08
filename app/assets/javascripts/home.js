@@ -11,5 +11,5 @@ function onGetSuccess(xhr) {
 }
 
 window.onload = function(){
-  $('#clickbait-buttons .btn-clickbait').click(CBGgetNewHeadline);
+  $('.button-container__button').click(CBGgetNewHeadline);
 };
